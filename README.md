@@ -1,4 +1,4 @@
-![image](https://github.com/Jhazl/Database-design-for-Ace-Web-Comics/assets/101177547/0d21c88d-b432-4eb7-9768-f2ec82ad8a51)# Database design for Ace Web Comics
+# Database design for Ace Web Comics
 Logical Database design for Ace Web Comics.
 
 ## About
