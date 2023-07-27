@@ -41,7 +41,7 @@ database.
 
 Users are also allowed to like or dislike a comment or reply. Below shows a snapshot of comments and replies received for a chapter from a book.
 
-**Insert screenshot**
+![Comment system](form.png)
 
 **Online Order System**
 
@@ -50,10 +50,10 @@ all chapters in a finished/completed comic book). After purchase, users get acce
 book regardless of whether they are a VIP or not.
 Below shows a screenshot of the order form:
 
-**Insert screenshot**
+![Form for online order](Form.png)
 
 ## ERD for Ace Web Comics:
-![image](https://github.com/Jhazl/Database-design-for-Ace-Web-Comics/assets/101177547/043e7113-9393-4f87-9ae3-d22baa572c02)
+![image](ERD.png)
 
 
 ## Assumptions made when developing the ERD:
