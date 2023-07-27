@@ -41,7 +41,7 @@ database.
 
 Users are also allowed to like or dislike a comment or reply. Below shows a snapshot of comments and replies received for a chapter from a book.
 
-![Comment system](form.png)
+![Comment system](Comments.png)
 
 **Online Order System**
 
@@ -55,21 +55,22 @@ Below shows a screenshot of the order form:
 ## ERD for Ace Web Comics:
 ![image](ERD.png)
 
+**View the full ERD by downloading the ERD.png file under this repository**
 
 ## Assumptions made when developing the ERD:
 
-1. We assumed that the item number is the numbering on the receipt and can be removed to utilise data storage and is not needed/unecessary. 
-2. We assume that the AmountAfterDiscount can be calculated from the TotalAmount – DiscountAmount so to maximise storage removed it. 
-3. We assumed that discount is for a book like a sale and not for the whole order e.g. discount codes.
-4. We assume that a user has one registered phone number since it’s an online platform, and the phone number doesn’t change from home phone to work phone order to order.
-5. We also assume billing address is not related to a customer but an order as a customer could use their work or home address for an order. 
-6. We assumed that there is a set of billing methods and currencies accepted by Ace Webcomics Platform and therefore made separate entity sets (BillingMethods and 
+1. It can be assumed that the item number is the numbering on the receipt and can be removed to utilise data storage and is not needed/unecessary. 
+2. It can be assumed  that the AmountAfterDiscount can be calculated from the TotalAmount – DiscountAmount so to maximise storage removed it. 
+3. It can be assumed that discount is for a book like a sale and not for the whole order e.g. discount codes.
+4. It can be assumed that a user has one registered phone number since it’s an online platform, and the phone number doesn’t change from home phone to work phone order to order.
+5. It can be assumed billing address is not related to a customer but an order as a customer could use their work or home address for an order. 
+6. It can be assumed that there is a set of billing methods and currencies accepted by Ace Webcomics Platform and therefore made separate entity sets (BillingMethods and 
 CurrenciesAccepted) to reduce human error.
-7. We assumed that not all books would have a discount therefore in order to reduce insertion anomaly we placed the information on what books are discounted in another entity set.
-8. We assumed that email for employees and users is different, since and employee can also be a user they might use a different email from their work email and a different phone from their work phone to register. 
-9. We assumed that a marketing campaign only has one operating manager
-10. We assumed that a Top Level Contractor may or may not be assigned a marketing manager.
-11. We assumed that not all users will have a VIP level so made a separate entity for users who 
+7. It can be assumed that not all books would have a discount therefore in order to reduce insertion anomaly we placed the information on what books are discounted in another entity set.
+8. It can be assumed that email for employees and users is different, since and employee can also be a user they might use a different email from their work email and a different phone from their work phone to register. 
+9. It can be assumed that a marketing campaign only has one operating manager
+10. It can be assumed that a Top Level Contractor may or may not be assigned a marketing manager.
+11. It can be assumed that not all users will have a VIP level so made a separate entity for users who 
 have been VIPs before.
 
 
